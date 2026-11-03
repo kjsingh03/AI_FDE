@@ -1,0 +1,181 @@
+# UTILITY FILES
+context.md
+
+
+# SECRETS & ENVIRONMENT
+.env
+.env.*
+!.env.example
+!.env.template
+
+*.pem
+*.key
+*.cert
+*.p12
+
+secrets/
+
+
+# IDE & EDITORS
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.fleet/
+
+
+# NODE / TYPESCRIPT
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/.output/
+**/.svelte-kit/
+**/out/
+**/.cache/
+**/.turbo/
+
+**/*.tsbuildinfo
+
+**/coverage/
+**/.nyc_output/
+**/storybook-static/
+**/playwright-report/
+**/test-results/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# PYTHON
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.hypothesis/
+
+**/.venv/
+**/venv/
+**/env/
+**/myvenv/
+
+**/*.egg-info/
+**/.eggs/
+
+.pytest_cache/
+.mypy_cache/
+
+
+# GO
+**/bin/
+**/tmp/
+
+**/*.exe
+**/*.test
+**/*.out
+
+**/vendor/
+
+
+# GENERATED CODE
+gen/
+
+# If you later generate protobuf code elsewhere:
+**/generated/
+
+
+# WORKERS
+workers/**/node_modules/
+workers/**/dist/
+workers/**/build/
+workers/**/*.tsbuildinfo
+workers/**/coverage/
+
+workers/**/__pycache__/
+workers/**/venv/
+workers/**/.venv/
+
+workers/**/bin/
+workers/**/tmp/
+
+
+# DOCKER
+docker-compose.override.yml
+.docker/
+
+
+# INFRASTRUCTURE
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+!**/*.tfvars.example
+**/.terraform.lock.hcl
+
+# Pulumi
+**/.pulumi/
+
+# Serverless
+**/.serverless/
+
+# AWS CDK
+**/cdk.out/
+
+
+# DATABASE / CACHE / LOCAL DATA
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+*.rdb
+dump.rdb
+
+
+# LOGS
+**/*.log
+logs/
+
+
+# TESTING
+test-results/
+playwright-report/
+coverage/
+.nyc_output/
+
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Thumbs.db
+Desktop.ini
+
+
+# TEMP FILES
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

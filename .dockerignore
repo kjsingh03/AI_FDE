@@ -1,0 +1,118 @@
+# GIT
+.git
+.gitignore
+
+
+# NODE
+**/node_modules/
+**/.next/
+**/.nuxt/
+**/.output/
+**/.svelte-kit/
+
+**/dist/
+**/build/
+**/coverage/
+**/.cache/
+**/.turbo/
+
+**/*.tsbuildinfo
+
+
+# PYTHON
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+
+**/.venv/
+**/venv/
+**/env/
+**/myvenv/
+
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.hypothesis/
+
+**/*.egg-info/
+**/.eggs/
+
+
+# GO
+**/bin/
+**/tmp/
+**/*.exe
+**/*.test
+**/*.out
+**/vendor/
+
+
+# ENV / SECRETS
+.env
+.env.*
+!.env.example
+!.env.template
+
+secrets/
+
+*.pem
+*.key
+*.cert
+*.p12
+
+
+# IDE
+.vscode/
+.idea/
+.fleet/
+
+*.iml
+*.iws
+*.ipr
+
+*.sublime-project
+*.sublime-workspace
+
+
+# TEST / REPORTS
+**/test-results/
+**/playwright-report/
+**/storybook-static/
+
+**/.nyc_output/
+
+
+# DATABASE / LOCAL DATA
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+*.rdb
+dump.rdb
+
+
+# LOGS
+**/*.log
+logs/
+
+
+# INFRA LOCAL STATE
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/.pulumi/
+**/.serverless/
+**/cdk.out/
+
+
+# GENERATED FILES
+gen/
+**/generated/
+
+
+# OS
+.DS_Store
+Thumbs.db
