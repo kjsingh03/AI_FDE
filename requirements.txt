@@ -4,3 +4,7 @@ bs4
 google
 IPython
 openai
+
+langgraph 
+langchain-openai 
+langchain-core 
